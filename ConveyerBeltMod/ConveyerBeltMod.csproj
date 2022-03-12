@@ -50,15 +50,20 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Resources\Conveyer Belt Block\center.png" />
+    <Content Include="Resources\ConveyerBeltBlock\center.png" />
     <Content Include="Resources\icon.png" />
-    <Content Include="XML\Conveyer Belt Block.xml" />
+    <Content Include="XML\ConveyerBeltBlock.xml" />
     <Content Include="XML\Mod.xml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Conveyer Belt Block\center.obj" />
-    <None Include="Resources\Conveyer Belt Block\cylinder.obj" />
-    <None Include="Resources\Conveyer Belt Block\plain.obj" />
+    <None Include="Resources\ConveyerBeltBlock\center.obj" />
+    <None Include="Resources\ConveyerBeltBlock\cylinder.obj" />
+    <None Include="Resources\ConveyerBeltBlock\plain.obj" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>copy /Y "$(TargetPath)" "%25BESIEGE_LOCATION%25\Besiege_Data\Mods\$(ProjectName)\$(TargetName).dll"
+copy /Y "$(ProjectDir)Resources\*" "%25BESIEGE_LOCATION%25\Besiege_Data\Mods\$(ProjectName)\Resources\"
+copy /Y "$(ProjectDir)XML\*" "%25BESIEGE_LOCATION%25\Besiege_Data\Mods\$(ProjectName)\"</PostBuildEvent>
+  </PropertyGroup>
 </Project>
