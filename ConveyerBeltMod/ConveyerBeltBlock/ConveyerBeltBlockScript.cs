@@ -84,13 +84,13 @@ class ConveyerBeltBlockScript : BlockScript
 
         var rigid1 = cylinder1.GetComponent<Rigidbody>();
         Quaternion rot = rigid1.rotation;
-        Quaternion angle = Quaternion.AngleAxis(speedSlider.Value * Time.fixedDeltaTime, cylinder1.transform.forward * (BlockBehaviour.Flipped ? 1f : -1f));
+        Quaternion angle = Quaternion.AngleAxis(speedSlider.Value*3.14f * Time.fixedDeltaTime, cylinder1.transform.forward * (BlockBehaviour.Flipped ? 1f : -1f));
         rigid1.rotation *= angle;
         rigid1.MoveRotation(rot);
 
         var rigid2 = cylinder2.GetComponent<Rigidbody>();
         Quaternion rot1 = rigid2.rotation;
-        Quaternion angle1 = Quaternion.AngleAxis(speedSlider.Value * Time.fixedDeltaTime, cylinder2.transform.forward * (BlockBehaviour.Flipped ? 1f : -1f));
+        Quaternion angle1 = Quaternion.AngleAxis(speedSlider.Value * 3.14f * Time.fixedDeltaTime, cylinder2.transform.forward * (BlockBehaviour.Flipped ? 1f : -1f));
         rigid2.rotation *= angle1;
         rigid2.MoveRotation(rot1);
     }
