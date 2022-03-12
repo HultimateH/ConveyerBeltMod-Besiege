@@ -9,7 +9,7 @@
 	<Name>Conveyer Belt Mod</Name>
 	<Author>XultimateX</Author> <!-- FIX: Insert your name here. -->
 	<!-- Major.Minor.Build -->
-	<Version>0.0.2</Version>
+	<Version>0.0.4</Version>
 	
 	<Description>
 A newly created mod. <!-- FIX: Insert a short description here. -->
@@ -81,13 +81,14 @@ A newly created mod. <!-- FIX: Insert a short description here. -->
 	<Assemblies>
 		<!-- <Assembly path="SomeAssembly.dll" /> -->
 		<!-- <ScriptAssembly path="SomeAssembly/" /> -->
+		<Assembly path="ConveyerBeltMod.dll" />
 	</Assemblies>
 	
 	<!-- Any blocks your mod adds to the game.
 		 The path attribute is relative to the location of this file. -->
 	<Blocks>
 		<!-- <Block path="SomeBlock.xml" /> -->
-		<Block path="Conveyer Belt Block.xml" />
+		<Block path="ConveyerBeltBlock.xml" />
 	</Blocks>
 	
 	<!-- Any entities (level objects) your mod adds to the game.
@@ -121,11 +122,11 @@ A newly created mod. <!-- FIX: Insert a short description here. -->
 	<Resources>
 		<!-- <Mesh name="some-mesh-name" path="some_mesh_file.obj" /> -->
 		<!-- <Texture name="some-texture-name" path="some_texture_file.png" /> -->
-		<Mesh name="center_mesh" path="Conveyer Belt Block/center.obj" />
-		<Mesh name="cylinder_mesh" path="Conveyer Belt Block/cylinder.obj" />
-		<Mesh name="plain_mesh" path="Conveyer Belt Block/plain.obj" />
+		<Mesh name="center_mesh" path="ConveyerBeltBlock/center.obj" />
+		<Mesh name="cylinder_mesh" path="ConveyerBeltBlock/cylinder.obj" />
+		<Mesh name="plain_mesh" path="ConveyerBeltBlock/plain.obj" />
 		<Texture name="icon" path="icon.png" />
-		<Texture name="center_tex" path="Conveyer Belt Block/center.png" />
+		<Texture name="center_tex" path="ConveyerBeltBlock/center.png" />
 	</Resources>
 
 

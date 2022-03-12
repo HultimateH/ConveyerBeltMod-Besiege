@@ -64,6 +64,7 @@
   <PropertyGroup>
     <PostBuildEvent>copy /Y "$(TargetPath)" "%25BESIEGE_LOCATION%25\Besiege_Data\Mods\$(ProjectName)\$(TargetName).dll"
 copy /Y "$(ProjectDir)Resources\*" "%25BESIEGE_LOCATION%25\Besiege_Data\Mods\$(ProjectName)\Resources\"
-copy /Y "$(ProjectDir)XML\*" "%25BESIEGE_LOCATION%25\Besiege_Data\Mods\$(ProjectName)\"</PostBuildEvent>
+copy /Y "$(ProjectDir)XML\*" "%25BESIEGE_LOCATION%25\Besiege_Data\Mods\$(ProjectName)\"
+copy /Y "$(ProjectDir)Resources\ConveyerBeltBlock\*" "%25BESIEGE_LOCATION%25\Besiege_Data\Mods\$(ProjectName)\Resources\ConveyerBeltBlock\"</PostBuildEvent>
   </PropertyGroup>
 </Project>

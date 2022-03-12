@@ -59,7 +59,7 @@
 		 fallback, not modded blocks. -->
 	<!--<Fallback>DoubleWoodenBlock</Fallback>-->
 	
-	<!-- <Script>Full Name of a BlockScript class, optional.</Script> -->
+	<Script>ConveyerBeltBlockScript</Script>
 	
 	<!-- Blocks can have certain predefined behaviour added without any custom code.
 		 These behaviours are called modules.
@@ -100,15 +100,15 @@
 	<!-- <DamageType>Blunt</DamageType> -->
 	
 	<Mesh name="center_mesh"> <!-- Must be defined as a resource in the manifest. -->
-		<!--<Position x="0.0" y="0.0" z="0.0" />
+		<Position x="0.0" y="0.0" z="0.75" />
 		<Rotation x="0.0" y="0.0" z="0.0" />
-		<Scale x="1.0" y="1.0" z="1.0" /> -->
+		<Scale x="1.0" y="1.0" z="1.0" />
 	</Mesh>
 	
 	<Texture name="center_tex" /> <!-- Must be defined as a resource in the manifest. -->
 	
 	<Icon>
-		<Position x="-0.1" y="-0.15" z="-1.0" />
+		<Position x="0.1" y="0.15" z="-1.0" />
 		<Rotation x="-40.0" y="40.0" z="-40.0" />
 		<Scale x="0.25" y="0.25" z="0.25" />
 	</Icon>
