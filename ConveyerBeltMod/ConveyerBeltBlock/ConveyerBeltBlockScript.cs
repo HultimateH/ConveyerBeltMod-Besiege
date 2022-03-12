@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace ConveyerBeltMod
+namespace ConveyerBeltMod.ConveyerBeltBlock
 {
-    public class Class1
+    class ConveyerBeltBlockScript
     {
     }
 }
