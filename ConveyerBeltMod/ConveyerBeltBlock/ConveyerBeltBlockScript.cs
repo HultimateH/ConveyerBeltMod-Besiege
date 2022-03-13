@@ -32,7 +32,8 @@ class ConveyerBeltBlockScript : BlockScript
         {
             var go = new GameObject(name);
             go.AddComponent<MeshFilter>().mesh = ModResource.GetMesh("plain_mesh");
-            go.AddComponent<MeshRenderer>().material.color = Color.green;
+            go.AddComponent<MeshRenderer>().material.color = Color.white;
+            go.GetComponent<MeshRenderer>().material.mainTexture = ModResource.GetTexture("center_tex");
 
             var _mc = go.AddComponent<MeshCollider>();
             _mc.sharedMesh = ModResource.GetMesh("plain_mesh");
@@ -43,6 +44,7 @@ class ConveyerBeltBlockScript : BlockScript
             //Physics.IgnoreCollision(GetComponentInChildren<BoxCollider>(), _mc);
 
             go.AddComponent<Rigidbody>().isKinematic = true;
+            go.GetComponent<Rigidbody>().collisionDetectionMode = CollisionDetectionMode.Continuous;
             go.transform.SetParent(transform);
             go.transform.rotation = transform.rotation;
             go.transform.localPosition = localPosition;
@@ -61,9 +63,11 @@ class ConveyerBeltBlockScript : BlockScript
             _mc.material.dynamicFriction = 1f;
             _mc.material.staticFriction = 1f;
             _mc.material.frictionCombine = PhysicMaterialCombine.Maximum;
+            
             //Physics.IgnoreCollision(_mc, GetComponentInChildren<BoxCollider>());
 
             go.AddComponent<Rigidbody>().isKinematic = true;
+            go.GetComponent<Rigidbody>().collisionDetectionMode = CollisionDetectionMode.Continuous;
             go.transform.SetParent(transform);
             go.transform.rotation = transform.rotation;
             go.transform.localPosition = localPosition;
@@ -90,7 +94,7 @@ class ConveyerBeltBlockScript : BlockScript
 
         var rigid2 = cylinder2.GetComponent<Rigidbody>();
         Quaternion rot1 = rigid2.rotation;
-        Quaternion angle1 = Quaternion.AngleAxis(speedSlider.Value * 3.14f * 50f * Time.fixedDeltaTime, cylinder2.transform.forward * (BlockBehaviour.Flipped ? 1f : -1f));
+        Quaternion angle1 = Quaternion.AngleAxis(speedSlider.Value * 3.14f * 50f * Time.fixedDeltaTime, -cylinder2.transform.forward * (BlockBehaviour.Flipped ? 1f : -1f));
         rigid2.rotation *= angle1;
         rigid2.MoveRotation(rot1);
     }

@@ -1,53 +1,108 @@
-# Exported from 3D Builder
-o Object.1
-v -1.250000 -0.050000 -0.650000 188 188 188
-v -1.250000 -0.050000 0.650000 188 188 188
-v 1.250000 -0.050000 -0.650000 188 188 188
-v 1.250000 -0.050000 0.650000 188 188 188
-v 1.250000 0.050000 -0.650000 188 188 188
-v 1.250000 0.050000 0.650000 188 188 188
-v -1.250000 0.050000 0.650000 188 188 188
-v -1.250000 0.050000 -0.650000 188 188 188
+#File written by LIBRIZOMUV. Compilation :Sep 27 2018,19:16:40
+mtllib 
+#begin vertices
+v -1.25 -0.05 -0.65
+v -1.25 -0.05 0.65
+v 1.25 -0.05 -0.65
+v 1.25 -0.05 0.65
+v 1.25 0.05 -0.65
+v 1.25 0.05 0.65
+v -1.25 0.05 0.65
+v -1.25 0.05 -0.65
+v -1.25 -0.05 -0.65
+v -1.25 0.05 0.65
+v -1.25 0.05 0.65
+v -1.25 -0.05 0.65
+v 1.25 -0.05 0.65
+v -1.25 0.05 0.65
+v 1.25 0.05 0.65
+v 1.25 -0.05 0.65
+v 1.25 -0.05 0.65
+v 1.25 0.05 -0.65
+v -1.25 0.05 -0.65
+v 1.25 0.05 -0.65
+v 1.25 -0.05 -0.65
+v 1.25 0.05 0.65
+v 1.25 0.05 -0.65
+v -1.25 0.05 -0.65
+v 1.25 -0.05 -0.65
+v 1.25 -0.05 0.65
+v -1.25 -0.05 0.65
+v -1.25 -0.05 0.65
+v -1.25 -0.05 -0.65
+v 1.25 -0.05 -0.65
+v 1.25 -0.05 -0.65
+v -1.25 -0.05 -0.65
+v -1.25 0.05 -0.65
+v -1.25 0.05 -0.65
+v -1.25 0.05 0.65
+v 1.25 0.05 0.65
+#end vertices
 
-v -1.250000 -0.050000 -0.650000 188 188 188
-v -1.250000 0.050000 0.650000 188 188 188
-v -1.250000 0.050000 0.650000 188 188 188
-v -1.250000 -0.050000 0.650000 188 188 188
-v 1.250000 -0.050000 0.650000 188 188 188
-v -1.250000 0.050000 0.650000 188 188 188
-v 1.250000 0.050000 0.650000 188 188 188
-v 1.250000 -0.050000 0.650000 188 188 188
-v 1.250000 -0.050000 0.650000 188 188 188
-v 1.250000 0.050000 -0.650000 188 188 188
-v -1.250000 0.050000 -0.650000 188 188 188
-v 1.250000 0.050000 -0.650000 188 188 188
-v 1.250000 -0.050000 -0.650000 188 188 188
-v 1.250000 0.050000 0.650000 188 188 188
-v 1.250000 0.050000 -0.650000 188 188 188
-v -1.250000 0.050000 -0.650000 188 188 188
-v 1.250000 -0.050000 -0.650000 188 188 188
-v 1.250000 -0.050000 0.650000 188 188 188
-v -1.250000 -0.050000 0.650000 188 188 188
-v -1.250000 -0.050000 0.650000 188 188 188
-v -1.250000 -0.050000 -0.650000 188 188 188
-v 1.250000 -0.050000 -0.650000 188 188 188
-v 1.250000 -0.050000 -0.650000 188 188 188
-v -1.250000 -0.050000 -0.650000 188 188 188
-v -1.250000 0.050000 -0.650000 188 188 188
-v -1.250000 0.050000 -0.650000 188 188 188
-v -1.250000 0.050000 0.650000 188 188 188
-v 1.250000 0.050000 0.650000 188 188 188
+#begin 36 textures vertices 
+vt 0.1811962 0.2705642 0
+vt 0.1599764 0.2726607 0
+vt 0.2203172 0.2726607 0
+vt 0.2432887 0.1318864 0
+vt 0.1932643 0.6269604 0
+vt 0.3530359 0.6873505 0
+vt 0.1811962 0.6269604 0
+vt 0.1539423 0.2726607 0
+vt 0.1872302 0.6269604 0
+vt 0.1872302 0.2705642 0
+vt 0.2432887 0.8157913 0
+vt 0.2159762 0.8146988 0
+vt 0.3803484 0.688443 0
+vt 0.3803484 0.004538093 0
+vt 0.1660105 0.2726607 0
+vt 0.1932643 0.2705642 0
+vt 0.247571 0.6269604 0
+vt 0.247571 0.2705642 0
+vt 0.4441372 0.8683189 0
+vt 0.4168247 0.1855065 0
+vt 0.4441372 0.184414 0
+vt 0.944383 0.8330339 0
+vt 0.6291137 0.6690939 0
+vt 0.944383 0.06280674 0
+vt 0.9433054 0.8299581 0
+vt 0.6280361 0.666018 0
+vt 0.9433054 0.0597309 0
+vt 0.945734 0.832104 0
+vt 0.6304647 0.6681639 0
+vt 0.945734 0.06187683 0
+vt 0.1812239 0.9980469 0
+vt 0.1539114 0.3152344 0
+vt 0.1812239 0.3141419 0
+vt 0.9440911 0.8330339 0
+vt 0.6288218 0.6690939 0
+vt 0.9440911 0.06280674 0
+#end 36 textures vertices 
 
-f 7 8 1
-f 9 2 10
-f 11 12 4
-f 13 6 14
-f 5 15 16
-f 17 3 18
-f 19 20 21
-f 22 23 24
-f 25 26 27
-f 28 29 30
-f 31 32 33
-f 34 35 36
+#begin 0 normals 
+#end 0 normals 
 
+#begin 12 faces
+o Object:1
+f 7/7 8/8 1/1 
+f 9/9 2/2 10/10 
+f 11/11 12/12 4/4 
+f 13/13 6/6 14/14 
+f 5/5 15/15 16/16 
+f 17/17 3/3 18/18 
+f 19/19 20/20 21/21 
+f 22/22 23/23 24/24 
+f 25/25 26/26 27/27 
+f 28/28 29/29 30/30 
+f 31/31 32/32 33/33 
+f 34/34 35/35 36/36 
+#end 12 faces
+
+#begin properties
+#ZOMPROPERTIES_02 table {Mesh table {IslandsUVW table {0 table {TopoStable table {Selected bool false Visible bool false } } 1 table {TopoStable table {Selected bool false Visible bool false } } 2 table {TopoStable table {Selected bool false Visible bool false } } 3 table {TopoStable table {Selected bool false Visible bool false } } 4 table {TopoStable table {Selected bool false Visible bool false } } 5 table {TopoStable table {Selected bool false Visible bool false } } 6 table {TopoStable table {Selected bool false Visible bool false } } 7 table {TopoStable table {Selected bool false Visible bool false } } 8 table {TopoStable table {Selected bool false Visible bool false } } 9 table {TopoStable table {Selected bool false Visible bool false } } 10 table {TopoStable table {Selected bool false Visible bool false } } 11 table {TopoStable table {Selected bool false Visible bool false } } } SymPlane table {Point vector3d 0 0 0 Normal vector3d 1 0 0 Threshold double 0.01 Enabled bool false EdgeID int -1 SymEdgeID int -1 UPos double 0.5 LocalMode bool false } RootGroup CSubMeshGroup {Children table {Tile_0_0 CSubMeshGroup {Children table {} IslandIDs ints { 0 3 7 10 1 2 4 5 6 8 9 11 } BBoxUV box3d 0 0 0 0 0 0 BBox3D box3d 0 0 0 0 0 0 AreaUV double 0 Area3D double 0 IsRoot bool false TopoStable table {Selected bool false Box box3d 0 1 0 1 0 1 U int 0 V int 0 NU int 0 NV int 0 Tiling vector3d 1 1 1 TileRatioMode string "1:1" } IsTile bool true } } IslandIDs ints { } BBoxUV box3d 0 0 0 0 0 0 BBox3D box3d 0 0 0 0 0 0 AreaUV double 0 Area3D double 0 IsRoot bool true TopoStable table {Selected bool false Box box3d 0 1 0 1 0 1 U int 0 V int 0 NU int 1 NV int 1 Tiling vector3d 1 1 1 TileRatioMode string "1:1" Pack table {Rotate table {Mode int 2 Min double 0 Max double 180 Step double 0 } SpacingSize double 0.00390625 MarginSize double 0.001953125 Resolution int 200 Scaling table {Mode int 0 } LayoutScalingMode int 2 MaxMutations int 1 } } IsTile bool false } Maps table {Density table {PrimType string "Polygon" Size int 1 DefaultValue double 1 ScaleType string "Log" MinValue double 0.1 MaxValue double 4 Data doubles { r 12 1 } } Pin table {PrimType string "Vertex" Size int 1 DefaultValue double 0 ScaleType string "Normalized" MinValue double 0 MaxValue double 1 Data doubles { r 36 0 } } Protect table {PrimType string "Vertex" Size int 1 DefaultValue double 0 ScaleType string "Normalized" MinValue double -1 MaxValue double 1 Data doubles { r 36 0 } } } } }
+#end properties
+
+#begin 0 fatal error vertex (that RizomUV cannot handle)
+#end 0 fatal error vertex (that RizomUV cannot handle)
+
+#begin 0 error vertex
+#end 0 error vertex

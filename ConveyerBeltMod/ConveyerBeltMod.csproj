@@ -45,6 +45,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccelerateZoneBlockScript.cs" />
     <Compile Include="ConveyerBeltBlock\ConveyerBeltBlockScript.cs" />
     <Compile Include="Mod.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -53,6 +54,7 @@
   <ItemGroup>
     <Content Include="Resources\ConveyerBeltBlock\center.png" />
     <Content Include="Resources\icon.png" />
+    <Content Include="XML\AccelerateZoneBlock.xml" />
     <Content Include="XML\StableAxisBlock.xml" />
     <Content Include="XML\ConveyerBeltBlock.xml" />
     <Content Include="XML\Mod.xml" />

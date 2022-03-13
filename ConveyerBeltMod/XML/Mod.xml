@@ -90,6 +90,7 @@ A newly created mod. <!-- FIX: Insert a short description here. -->
 		<!-- <Block path="SomeBlock.xml" /> -->
 		<Block path="ConveyerBeltBlock.xml" />
 		<Block path="StableAxisBlock.xml" />
+		<Block path="AccelerateZoneBlock.xml" />
 	</Blocks>
 	
 	<!-- Any entities (level objects) your mod adds to the game.
