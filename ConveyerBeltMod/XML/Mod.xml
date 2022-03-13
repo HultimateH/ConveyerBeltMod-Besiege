@@ -9,7 +9,7 @@
 	<Name>Conveyer Belt Mod</Name>
 	<Author>XultimateX</Author> <!-- FIX: Insert your name here. -->
 	<!-- Major.Minor.Build -->
-	<Version>0.0.5</Version>
+	<Version>0.0.6</Version>
 	
 	<Description>
 A newly created mod. <!-- FIX: Insert a short description here. -->
@@ -89,6 +89,7 @@ A newly created mod. <!-- FIX: Insert a short description here. -->
 	<Blocks>
 		<!-- <Block path="SomeBlock.xml" /> -->
 		<Block path="ConveyerBeltBlock.xml" />
+		<Block path="StableAxisBlock.xml" />
 	</Blocks>
 	
 	<!-- Any entities (level objects) your mod adds to the game.
